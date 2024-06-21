@@ -6,15 +6,15 @@
 /*   By: tjlin <tjlin@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/06/12 22:41:30 by tjlin         #+#    #+#                 */
-/*   Updated: 2024/06/13 16:12:25 by tjlin         ########   odam.nl         */
+/*   Updated: 2024/06/17 15:05:55 by tjlin         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-char *ft_strcpy(char *dest, char *src)
+char	*ft_strcpy(char *dest, char *src)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (src[i] != '\0')
