@@ -6,16 +6,16 @@
 /*   By: tjlin <tjlin@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/06/19 19:11:02 by tjlin         #+#    #+#                 */
-/*   Updated: 2024/06/20 17:51:00 by tjlin         ########   odam.nl         */
+/*   Updated: 2024/06/23 15:07:44 by tjlin         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int spaces(char *str, int *ptr_i)
+int	spaces(char *str, int *ptr_i)
 {
-	int count;
-	int i;
+	int	count;
+	int	i;
 
 	i = 0;
 	count = 1;
@@ -33,9 +33,9 @@ int spaces(char *str, int *ptr_i)
 
 int	ft_atoi(char *str)
 {
-	int sign;
-	int result;
-	int i;
+	int	sign;
+	int	result;
+	int	i;
 
 	result = 0;
 	sign = spaces(str, &i);
@@ -49,8 +49,8 @@ int	ft_atoi(char *str)
 	return (result);
 }
 
-int main(void)
-{
-	char *s = "  ---+--+1234ab56789";
-	printf ("%d", ft_atoi(s));
-}
+// int main(void)
+// {
+// 	char *s = "  ---+--+1234ab56789";
+// 	printf ("%d", ft_atoi(s));
+// }
